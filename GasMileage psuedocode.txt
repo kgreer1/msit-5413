@@ -1,0 +1,39 @@
+GasMileage psuedocode
+
+Calculate and display trip mpg and total mpg for all trips combined
+
+----
+
+declare and initialize variables
+obtain input from user (miles driven, gallons used)
+
+for each trip, 
+	calculate mpg (mpg = miles / gallons)
+	add miles to total
+	add gallons to total
+	add 1 to counter
+
+
+calculate total mpg for all trips (totalmpg = total miles / total gallons)
+
+---
+
+declare variable miles
+declare variable gallons
+declare variable counter and initalize to one
+declare variable milesTotal and initalize to zero
+declare variable gallonsTotal and initalize to zero
+
+Prompt user if they have a trip to enter?
+	if true:	
+	Prompt user to input miles
+	Prompt user to input gallons
+
+	for each trip,
+	Prompt user to input miles
+	Prompt user to input gallons
+
+	if false:
+	print "Trip Report Finished."
+
+
